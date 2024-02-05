@@ -19,7 +19,7 @@ main(List<String> arguments) {
   //numbers.numbers(); //Lesson 9: Numbers
   //strings.strings(); //Lesson 10: Strings
   //constVariables.constVariables(); //Lesson 11: constVariables
-  userInput.userInput(); //Lesson 12: userInput
+  //userInput.userInput(); //Lesson 12: userInput
 
 
   /**********************************************************
