@@ -1,3 +1,6 @@
+import 'dart:io';
+import 'dart:async';
+
 //-------- Librerias de seccion VARIABLES
 import 'package:helloworld/booleans.dart' as booleans; //Lesson 8: Booleans
 import 'package:helloworld/numbers.dart' as numbers; //Lesson 9: Numbers
@@ -44,6 +47,48 @@ import 'package:helloworld/throwingexceptions.dart' as throwingexceptions;//Less
     Usa Ctrl + Click en la dirección del paquete correspondiente a la lección.
  */
 main(List<String> arguments) {
+  /*
+  var salir = false;
+  while(salir == false){
+    print('Holis');
+    stdout.write('Please, select the lesson you want to try\r\n');
+    var input = stdin.readLineSync();
+    if (input == null || input.trim().isEmpty) {
+      stderr.write('Input is empty');
+    } else {
+      try {
+        var number = int.parse(input.trim());
+        if (number >= 1) {
+          switch(number) {
+            case 18:
+              print('You are 18, you can vote');
+              break;
+
+            case 21:
+              print('You are 21, you are an adult');
+              break;
+
+            case 65:
+              print('You are 65, you can retire');
+              break;
+
+            default:
+              print('Nothing special about this age');
+              break;
+          }
+        } else {
+          stderr.write('The number must be greater than 1');
+        }
+      } catch (e) {
+        stderr.write('Invalid input: $e');
+      }
+    }
+
+
+  }
+*/
+
+
 
   /**********************************************************
                             Variables
