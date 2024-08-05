@@ -15,7 +15,7 @@
 //Lesson 10: Introduction to scope
 // Lesson 11: Public and private scope
 // Lesson 12: Getters and Setters
-import 'package:intermediate/staticmembers.dart' as staticmembers;// Lesson 13: Static members
+// Lesson 13: Static members
 // Lesson 14: ASSIGNMENT
 
 
@@ -51,7 +51,9 @@ main(List<String> arguments) {
   /**********************************************************
                             IMPORTS
    **********************************************************/
-  //imports.imports(); // Lesson 3: Imports
+  // import 'package:intermediate/imports.dart' as imports;
+  // imports.imports(); // Lesson 3: Imports
+  // import 'package:intermediate/moreimports.dart' as moreimports;
   //moreimports.moreimports();// Lesson 4: More Imports
   //************** Lesson 5: ASSIGNMENT
 
@@ -61,8 +63,11 @@ main(List<String> arguments) {
                           CLASSES
    **********************************************************/
 
-  //introclass.introclass();// Lesson 6: Introduction to Classes
+  // import 'package:intermediate/introclass.dart' as introclass;
+  // introclass.introclass();// Lesson 6: Introduction to Classes
+  // import 'package:intermediate/classconstructors.dart' as classconstructors;
   //classconstructors.classconstructors();// Lesson 7: Class constructors
+  // import 'package:intermediate/thiskey.dart' as thiskey;
   //thiskey.thiskey();// Lesson 8: This keyword
   // Lesson 9: ASSIGNMENT
 
@@ -71,19 +76,27 @@ main(List<String> arguments) {
   /**********************************************************
                             SCOPE
    **********************************************************/
-  //introscope.introscope();// Lesson 10: Introduction to scope
+  // import 'package:intermediate/introscope.dart' as introscope;
+  // introscope.introscope();// Lesson 10: Introduction to scope
+  // import 'package:intermediate/publicprivatescope.dart' as publicprivatescope;
   //publicprivatescope.publicprivatescope();// Lesson 11: Public and private scope
+  // import 'package:intermediate/getterssetters.dart' as getterssetters;
   //getterssetters.getterssetters();// Lesson 12: Getters and Setters
-  staticmembers.staticmembers();// Lesson 13: Static members
+  // import 'package:intermediate/staticmembers.dart' as staticmembers;
+  //staticmembers.staticmembers();// Lesson 13: Static members
   // Lesson 14: ASSIGNMENT
 
 
   /**********************************************************
                           POLYMORPHISM
    **********************************************************/
+  // import 'package:intermediate/introclass.dart' as introclass;
   // Lesson 15: Inheritance
+  // import 'package:intermediate/introclass.dart' as introclass;
   // Lesson 16: Mixins
+  // import 'package:intermediate/introclass.dart' as introclass;
   // Lesson 17: Interfaces
+  // import 'package:intermediate/introclass.dart' as introclass;
   // Lesson 18 Abstraction
   // Lesson 19: ASSIGNMENT
 
@@ -91,8 +104,11 @@ main(List<String> arguments) {
   /**********************************************************
                            GENERICS
    **********************************************************/
+  // import 'package:intermediate/introclass.dart' as introclass;
   // Lesson 20: Introduction to generics
+  // import 'package:intermediate/introclass.dart' as introclass;
   // Lesson 21 Example of generics
+  // import 'package:intermediate/introclass.dart' as introclass;
   // Lesson 22: Generic class
   // Lesson 23: ASSIGNMENT
 
@@ -100,9 +116,13 @@ main(List<String> arguments) {
   /**********************************************************
                             FILE SYSTEM
    **********************************************************/
+  // import 'package:intermediate/introclass.dart' as introclass;
   // Lesson 24: Sync vs Async
+  // import 'package:intermediate/introclass.dart' as introclass;
   // Lesson 25: System temp directory
+  // import 'package:intermediate/introclass.dart' as introclass;
   // Lesson 26: Listing items in directories
+  // import 'package:intermediate/introclass.dart' as introclass;
   // Lesson 27: Accessing files
   // Lesson 28: ASSIGNMENT
 
