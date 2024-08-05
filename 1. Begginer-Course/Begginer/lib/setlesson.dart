@@ -1,7 +1,7 @@
 void setlesson(){
   //Set = unordered, do not contain duplicates
 
-  Set<int> numbers = new Set<int>();
+  Set<int> numbers = <int>{};
   numbers.add(1);
   numbers.add(2);
   numbers.add(3);

@@ -3,7 +3,7 @@ void mapl(){
 
   //Map people = {'dad' : 'Bryan', 'son' : 'Chris', 'daughter' : 'Heather'};
 
-  Map<String, String> people = new Map<String, String>();
+  Map<String, String> people = <String, String>{};
   people.putIfAbsent('dad', () => 'Bryan');
   //people.putIfAbsent('son', () => 'Bryan');
   //people.putIfAbsent('daughter', () => 'Bryan');

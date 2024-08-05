@@ -4,10 +4,10 @@ void numbers(){
   num age = 34;
 
   //Int
-  int people = 6;
+  //int people = 6;
 
   //Double
-  double temp = 32.06;
+  //double temp = 32.06;
 
   //Parse an int
   int test = int.parse('12');
@@ -22,5 +22,5 @@ void numbers(){
         //math
         int dogyears = 7;
         num dogage = age * dogyears;
-        print('Your age in dog years is: ${dogage}');
+        print('Your age in dog years is: $dogage');
 }

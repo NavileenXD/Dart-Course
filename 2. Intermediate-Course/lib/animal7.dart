@@ -17,7 +17,7 @@ class Animal {
       print('Hello');
     }
     else {
-      print('Hello ${_name} nice to meet you');
+      print('Hello $_name nice to meet you');
     }
   }
 }

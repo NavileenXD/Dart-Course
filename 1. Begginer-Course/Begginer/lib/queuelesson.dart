@@ -1,6 +1,6 @@
 import 'dart:collection';
 void queuelesson(){
-  Queue items = new Queue();
+  Queue items = Queue();
   items.add(1);
   items.add(3);
   items.add(2);

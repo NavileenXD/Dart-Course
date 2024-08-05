@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'dart:async';
 
 void foreach(){
   List<String> people = ['Bryan', 'Heather', 'Chris'];
@@ -7,18 +6,18 @@ void foreach(){
   print(people);
 
   for(int i = 0; i < people.length; i++) {
-    print('Person at ${i} is ${people[i]}');
+    print('Person at $i is ${people[i]}');
   }
 
-  people.forEach((String person) {
+  for (var person in people) {
     print(person);
-  });
+  }
 }
 
 void numbers(){
   for(int i = 1; i <= 10; i++) {
-    print('Number: ${i}');
-    if (i == 5) print('Number: ${i}, half way there');
+    print('Number: $i');
+    if (i == 5) print('Number: $i, half way there');
   }
 }
 
@@ -46,7 +45,7 @@ void io() {
 
 void counters(var number){
   for(int i = 1; i <= number; i++) {
-    print('Number: ${i}');
+    print('Number: $i');
     if (i == (number/ 2).round() ) print('Half way there');
   }
 }

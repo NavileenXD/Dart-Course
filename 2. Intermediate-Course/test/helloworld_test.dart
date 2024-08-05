@@ -1,5 +1,3 @@
-import 'package:intermediate/scope.dart';
-import 'package:test/test.dart';
 
 void main() {
   /*test('calculate', () {

@@ -6,7 +6,7 @@ void loops(){
   value = init;
 
   do {
-    print('Value in do loop is ${value}');
+    print('Value in do loop is $value');
     value++;
   }while(value <= max);
 
@@ -15,7 +15,7 @@ void loops(){
   value = init;
 
   while (value <= max) {
-    print('Value in while loop is ${value}');
+    print('Value in while loop is $value');
     value++;
   }
   print('Done with while loop');
@@ -23,7 +23,7 @@ void loops(){
   //Infinate loop
   value = init;
   do{
-    print('Value = ${value}');
+    print('Value = $value');
     value++;
 
     if(value == 3) {

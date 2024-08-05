@@ -6,9 +6,9 @@ void anonymousfunctions(){
   people.forEach(print);
 
   print('----------');
-  people.forEach((String name){
+  for (var name in people) {
     print(name);
-  });
+  }
 
   print('----------');
 

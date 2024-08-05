@@ -10,10 +10,10 @@ class Animal {
   }
 
   String get name => _name;
-  void set name(String value) => _name = value;
+  set name(String value) => _name = value;
 
   int get age => _age;
-  void set age(int value) => _age = value * 7;
+  set age(int value) => _age = value * 7;
 
 
 

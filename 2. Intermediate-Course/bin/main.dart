@@ -1,20 +1,20 @@
 //-------- Librerias de seccion IMPORTS
-import 'package:intermediate/imports.dart' as imports; // Lesson 3: Imports
-import 'package:intermediate/moreimports.dart' as moreimports;// Lesson 4: More Imports
+// Lesson 3: Imports
+// Lesson 4: More Imports
 // Lesson 5: ASSIGNMENT
 
 
 //-------- Librerias de seccion CLASSES
-import 'package:intermediate/introclass.dart' as introclass;// Lesson 6: Introduction to Classes
-import 'package:intermediate/classconstructors.dart' as classconstructors;// Lesson 7: Class constructors
-import 'package:intermediate/thiskey.dart' as thiskey;// Lesson 8: This keyword
+// Lesson 6: Introduction to Classes
+// Lesson 7: Class constructors
+// Lesson 8: This keyword
 // Lesson 9: ASSIGNMENT
 
 
 //-------- Librerias de seccion SCOPE
-import 'package:intermediate/introscope.dart' as introscope;//Lesson 10: Introduction to scope
-import 'package:intermediate/publicprivatescope.dart' as publicprivatescope;// Lesson 11: Public and private scope
-import 'package:intermediate/getterssetters.dart' as getterssetters;// Lesson 12: Getters and Setters
+//Lesson 10: Introduction to scope
+// Lesson 11: Public and private scope
+// Lesson 12: Getters and Setters
 import 'package:intermediate/staticmembers.dart' as staticmembers;// Lesson 13: Static members
 // Lesson 14: ASSIGNMENT
 

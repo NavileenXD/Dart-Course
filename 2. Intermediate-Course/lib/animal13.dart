@@ -4,7 +4,7 @@ class Animal {
 
   Animal() {
     _counter++;
-    print('There are ${_counter} of us');
+    print('There are $_counter of us');
   }
 
   static void speak() {

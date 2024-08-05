@@ -1,6 +1,6 @@
 import 'package:intermediate/animal12.dart';
 void getterssetters(){
-  Animal dog = new Animal('Rango', 4);
+  Animal dog = Animal('Rango', 4);
   print('Before setter ${dog.name}');
   dog.name = 'fiddo'; //setter
   print('After setter ${dog.name}'); //getter

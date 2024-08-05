@@ -11,7 +11,7 @@ void basicfunctions(){
   int ceiling = squareFeet(20,10);
 
   double paint = paintNeeded(wall1, wall2, wall3, wall4, ceiling);
-  print('You ${paint} gallons of paint');
+  print('You $paint gallons of paint');
 
 }
 
@@ -20,7 +20,7 @@ void test() {
 }
 
 void sayHello(String name) {
-  print('Hello ${name}');
+  print('Hello $name');
 }
 
 int dogYears(int age) {

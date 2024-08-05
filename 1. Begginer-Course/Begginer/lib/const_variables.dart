@@ -4,5 +4,5 @@ void constVariables(){
 
   //world = 'Bryan'; ERROR
 
-  print(hello + ' ' + world);
+  print('$hello $world');
 }

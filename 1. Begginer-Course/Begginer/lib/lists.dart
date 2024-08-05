@@ -1,6 +1,5 @@
 //Lesson 15: Lists
 import 'dart:io';
-import 'dart:async';
 
 void lists() {
   List test = [1,2,3,4];

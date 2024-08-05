@@ -1,17 +1,17 @@
 void strings(){
-  String hello = 'hello world';
+  //String hello = 'hello world';
 
   String name = 'Bryan Cairns';
-  print('Hello ${name}');
+  print('Hello $name');
 
   //get a substring
   String firstname = name.substring(0,5);
-  print('firstname = ${firstname}');
+  print('firstname = $firstname');
 
   //get the index of a string
   int index = name.indexOf(' ');
   String lastname = name.substring(index).trim();
-  print('lastname = ${lastname}');
+  print('lastname = $lastname');
 
   //Length
   print(name.length);

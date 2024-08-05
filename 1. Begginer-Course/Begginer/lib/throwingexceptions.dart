@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'dart:async';
 
 
 void throwingexceptions(){
@@ -7,7 +6,7 @@ void throwingexceptions(){
     int? age;
     int dogYears = 7;
 
-    if(dogYears != 7) throw new Exception('dog years must be 7');
+    if(dogYears != 7) throw Exception('dog years must be 7');
 
     print(age! * dogYears);
   }
@@ -47,8 +46,8 @@ void io() {
 void age(var age){
   try {
 
-    if(age < 18) throw new Exception('Too young');
-    if(age > 99) throw new Exception('Too old');
+    if(age < 18) throw Exception('Too young');
+    if(age > 99) throw Exception('Too old');
     if (age > 18 && age <99) print('Cool age');
   }
   on NoSuchMethodError {

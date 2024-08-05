@@ -1,6 +1,6 @@
 import 'package:intermediate/animal10.dart';
 void introscope(){
-  Animal cat = new Animal('fluffy');
+  Animal cat = Animal('fluffy');
 
   for(int i = 0; i < 10; i ++) {
     print(i);
