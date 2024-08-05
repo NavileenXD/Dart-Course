@@ -1,4 +1,27 @@
-
+import 'package:helloworld/booleans.dart' as booleans;
+import 'package:helloworld/numbers.dart' as numbers;
+import 'package:helloworld/strings.dart' as strings;
+import 'package:helloworld/const_variables.dart' as constVariables;
+import 'package:helloworld/userInput.dart' as userInput;
+import 'package:helloworld/enum.dart' as enumL;
+import 'package:helloworld/lists.dart' as lists;
+import 'package:helloworld/setlesson.dart' as setlesson;
+import 'package:helloworld/queuelesson.dart' as queuelesson;
+import 'package:helloworld/mapl.dart' as mapl;
+import 'package:helloworld/assertl.dart' as assertl;
+import 'package:helloworld/ifelse.dart' as ifelse;
+import 'package:helloworld/scope.dart' as scope;
+import 'package:helloworld/switchl.dart' as switchl;
+import 'package:helloworld/loops.dart' as loops;
+import 'package:helloworld/foreach.dart' as foreach;
+import 'package:helloworld/basicfunctions.dart' as basicfunctions;
+import 'package:helloworld/optionalparameters.dart' as optionalparameters;
+import 'package:helloworld/namedparameters.dart' as namedparameters;
+import 'package:helloworld/funtionsobjects.dart' as funtionsobjects;
+import 'package:helloworld/anonymousfunctions.dart' as anonymousfunctions;
+import 'package:helloworld/trycatch.dart' as trycatch;
+import 'package:helloworld/throwingexceptions.dart' as throwingexceptions;
+import 'dart:io';
 //-------- Librerias de seccion VARIABLES
 //Lesson 8: Booleans
 //Lesson 9: Numbers
@@ -19,8 +42,8 @@
 // Lesson 21 IF ELSE
 //Lesson 22: Scope
 //Lesson 23: Switch
-//loops.loops(); //Lesson 24: Loops
-import 'package:helloworld/foreach.dart' as foreach;//Lesson 25: For Each
+//Lesson 24: Loops
+//Lesson 25: For Each
 
 
 //-------- Librerias de seccion FUNCTIONS
@@ -45,11 +68,39 @@ import 'package:helloworld/foreach.dart' as foreach;//Lesson 25: For Each
     Usa Ctrl + Click en la dirección del paquete correspondiente a la lección.
  */
 main(List<String> arguments) {
-  /*
+
   var salir = false;
   while(salir == false){
-    print('Holis');
-    stdout.write('Please, select the lesson you want to try\r\n');
+    print('Welcome to Dart Beginner Course\r\n'
+        '***** Variables *****\n\n'
+        'Lesson 8: Booleans\n'
+        'Lesson 9: Numbers\n'
+        'Lesson 10: Strings\n'
+        'Lesson 11: constVariables\n'
+        'Lesson 12: userInput\n\n'
+        '***** Collections *****\n\n'
+        'Lesson 14: Enum\n'
+        'Lesson 15: Lists\n'
+        'Lesson 16: Set\n'
+        'Lesson 17: Queue\n'
+        'Lesson 18: Map\n\n'
+        '***** Flow Control *****\n\n'
+        'Lesson 20: Assert\n'
+        'Lesson 21: IF ELSE\n'
+        'Lesson 22: Scope\n'
+        'Lesson 23: Switch\n'
+        'Lesson 24: Loops\n'
+        'Lesson 25: For Each\n\n'
+        '***** Functions *****\n\n'
+        'Lesson 27: Basic Functions\n'
+        'Lesson 28: Optional Parameters\n'
+        'Lesson 29 Named Parameters\n'
+        'Lesson 30 Functions as objects\n'
+        'Lesson 31: Anonymous functions\n\n'
+        '***** Error Handling *****\n\n'
+        'Lesson 34: Try Catch\n'
+        'Lesson 35: Throwing Exceptions\n');
+    stdout.write('Please, select the lesson you want to try\n');
     var input = stdin.readLineSync();
     if (input == null || input.trim().isEmpty) {
       stderr.write('Input is empty');
@@ -58,88 +109,118 @@ main(List<String> arguments) {
         var number = int.parse(input.trim());
         if (number >= 1) {
           switch(number) {
+          /**********************************************************
+              Variables
+           **********************************************************/
+            case 8:
+              booleans.booleans(); //Lesson 8: Booleans
+              break;
+            case 9:
+              numbers.numbers(); //Lesson 9: Numbers
+              break;
+            case 10:
+              strings.strings(); //Lesson 10: Strings
+            case 11:
+              constVariables.constVariables(); //Lesson 11: constVariables
+              break;
+            case 12:
+              userInput.userInput(); //Lesson 12: userInput
+              break;
+
+          /**********************************************************
+              Collections
+           **********************************************************/
+
+            case 14:
+              enumL.enumL(); //Lesson 14: Enum
+              break;
+            case 15:
+              lists.lists(); //Lesson 15: Lists
+              //lists.people(); //Lesson 15: Lists ASSIGMENT
+              break;
+            case 16:
+              setlesson.setlesson(); //Lesson 16: Set
+              break;
+            case 17:
+              queuelesson.queuelesson(); //Lesson 17: Queue
+              break;
             case 18:
-              print('You are 18, you can vote');
+              mapl.mapl(); //Lesson 18: Map
               break;
 
+          /**********************************************************
+              Flow Control
+           **********************************************************/
+            case 20:
+              assertl.assertl(); //Lesson 20: Assert
+              break;
             case 21:
-              print('You are 21, you are an adult');
+              ifelse.ifelse(); // Lesson 21 IF ELSE
+              break;
+            case 22:
+              scope.scope(); //Lesson 22: Scope
+            case 23:
+              switchl.switchl(); //Lesson 23: Switch
+              break;
+            case 24:
+              loops.loops(); //Lesson 24: Loops
+              break;
+            case 25:
+              foreach.foreach(); //Lesson 25: For Each
+              //foreach.numbers(); //Lesson 25: For Each ASSIGMENT
+              //foreach.io(); //Lesson 32: Functions ASSIGMENT
               break;
 
-            case 65:
-              print('You are 65, you can retire');
+          /**********************************************************
+              Functions
+           **********************************************************/
+            case 27:
+              basicfunctions.basicfunctions(); // Lesson 27: Basic Functions
+              break;
+            case 28:
+              optionalparameters.optionalparameters(); //Lesson 28: Optional Parameters
+              break;
+            case 29:
+              namedparameters.namedparameters(); //Lesson 29 Named Parameters
+              break;
+            case 30:
+              funtionsobjects.funtionsobjects(); //Lesson 30 Functions as objects
+              break;
+            case 31:
+              anonymousfunctions.anonymousfunctions(); //Lesson 31: Anonymous function
+              break;
+
+          /**********************************************************
+              Error Handling
+           **********************************************************/
+            case 34:
+              trycatch.trycatch(); // Lesson 34: Try Catch
+              break;
+            case 35:
+              throwingexceptions.throwingexceptions(); // Lesson 35: Throwing Exceptions
+              //throwingexceptions.io(); // Lesson 36: Throwing Exceptions AASIGMENT
               break;
 
             default:
-              print('Nothing special about this age');
+              print('Nonexistent lesson. Chose a lesson from the list');
               break;
           }
         } else {
-          stderr.write('The number must be greater than 1');
+          print('Bye :)');
+          break;
         }
       } catch (e) {
-        stderr.write('Invalid input: $e');
+        print('Invalid input: $e');
       }
     }
 
 
   }
-*/
 
 
 
-  /**********************************************************
-                            Variables
-   **********************************************************/
-
-  //booleans.booleans(); //Lesson 8: Booleans
-  //numbers.numbers(); //Lesson 9: Numbers
-  //strings.strings(); //Lesson 10: Strings
-  //constVariables.constVariables(); //Lesson 11: constVariables
-  //userInput.userInput(); //Lesson 12: userInput
 
 
-  /**********************************************************
-                          Collections
-   **********************************************************/
-  //enumL.enumL(); //Lesson 14: Enum
-  //lists.lists(); //Lesson 15: Lists
-  //lists.people(); //Lesson 15: Lists ASSIGMENT
-  //setlesson.setlesson(); //Lesson 16: Set
-  //queuelesson.queuelesson(); //Lesson 17: Queue
-  //mapl.mapl(); //Lesson 18: Map
-
-
-  /**********************************************************
-                         Flow Control
-   **********************************************************/
-  //assertl.assertl(); //Lesson 20: Assert
-  //ifelse.ifelse(); // Lesson 21 IF ELSE
-  //scope.scope(); //Lesson 22: Scope
-  //switchl.switchl(); //Lesson 23: Switch
-  //loops.loops(); //Lesson 24: Loops
-  //foreach.foreach(); //Lesson 25: For Each
-  //foreach.numbers(); //Lesson 25: For Each ASSIGMENT
-
-
-  /**********************************************************
-                          Functions
-   **********************************************************/
-  //basicfunctions.basicfunctions(); // Lesson 27: Basic Functions
-  //optionalparameters.optionalparameters(); //Lesson 28: Optional Parameters
-  //namedparameters.namedparameters(); //Lesson 29 Named Parameters
-  //funtionsobjects.funtionsobjects(); //Lesson 30 Functions as objects
-  //anonymousfunctions.anonymousfunctions(); //Lesson 31: Anonymous functions
-  foreach.io(); //Lesson 32: Functions ASSIGMENT
-
-
-  /**********************************************************
-                       Error Handling
-   **********************************************************/
-
-  //trycatch.trycatch(); // Lesson 34: Try Catch
-  //throwingexceptions.throwingexceptions(); // Lesson 35: Throwing Exceptions
-  //throwingexceptions.io(); // Lesson 36: Throwing Exceptions AASIGMENT
 
 }
 
