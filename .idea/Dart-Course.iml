@@ -9,6 +9,9 @@
       <excludeFolder url="file://$MODULE_DIR$/2. Intermediate-Course/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/2. Intermediate-Course/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/2. Intermediate-Course/build" />
+      <excludeFolder url="file://$MODULE_DIR$/3.Advanced-Course/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/3.Advanced-Course/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/3.Advanced-Course/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
