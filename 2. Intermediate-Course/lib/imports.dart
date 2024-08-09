@@ -7,7 +7,7 @@ void imports(){
   String myvalue = 'Hello World';
   List<int> ebytes = utf8.encode(myvalue);
   String encoded = base64.encode(ebytes);
-
+  print('ebytes: $ebytes');
   print('Encoded: $encoded');
 
   List<int> dbytes = base64.decode(encoded);

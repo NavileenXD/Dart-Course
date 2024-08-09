@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:intermediate/imports.dart' as imports;
 import 'package:intermediate/moreimports.dart' as moreimports;
+import 'package:intermediate/lesson5.dart' as lesson5;
 import 'package:intermediate/introclass.dart' as introclass;
 import 'package:intermediate/classconstructors.dart' as classconstructors;
 import 'package:intermediate/thiskey.dart' as thiskey;
@@ -129,8 +130,7 @@ main(List<String> arguments) {
               salir = Exit();
               break;
             case 5:
-              print('Coming Soon :)');
-              //************** Lesson 5: ASSIGNMENT
+              lesson5.directory();//************** Lesson 5: ASSIGNMENT
               salir = Exit();
               break;
           /**********************************************************
