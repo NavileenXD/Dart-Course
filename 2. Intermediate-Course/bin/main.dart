@@ -11,7 +11,8 @@ import 'package:intermediate/getterssetters.dart' as getterssetters;
 import 'package:intermediate/staticmembers.dart' as staticmembers;
 import 'package:intermediate/inheritance.dart' as inheritance;
 import 'package:intermediate/mixins.dart' as mixins;
-
+import 'package:intermediate/interfaces.dart' as interfaces;
+import 'package:intermediate/abstraction.dart' as abstraction;
 
 
 //-------- Librerias de seccion IMPORTS
@@ -191,17 +192,17 @@ main(List<String> arguments) {
             case 16:
               print('Because we can not do multiple inheritance, '
                   'we can "Mix" classes');
-              mixins.mixins();
-              // Lesson 16: Mixins
+              mixins.mixins();// Lesson 16: Mixins
+              print('REVISAR Y DOCUMENTAR MEJOR');
               salir = Exit();
               break;
             case 17:
-              print('Coming Soon :)');
+              interfaces.interfaces();
               // Lesson 17: Interfaces
               salir = Exit();
               break;
             case 18:
-              print('Coming Soon :)');
+              abstraction.abstraction();
               // Lesson 18 Abstraction
               salir = Exit();
               break;
