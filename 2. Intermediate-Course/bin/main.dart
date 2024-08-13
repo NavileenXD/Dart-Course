@@ -17,9 +17,14 @@ import 'package:intermediate/introgenerics.dart' as introgenerics;
 import 'package:intermediate/exgenerics.dart' as exgenerics;
 import 'package:intermediate/generics.dart' as generics;
 import 'package:intermediate/syncAsync.dart' as syncAsync;
-//import 'package:intermediate/tempdir.dart' as tempdir;
-//import 'package:intermediate/listdir.dart' as listdir;
-//import 'package:intermediate/files.dart' as files;
+import 'package:intermediate/tempdir.dart' as tempdir;
+import 'package:intermediate/listdir.dart' as listdir;
+import 'package:intermediate/files.dart' as files;
+import 'package:intermediate/lesson9.dart' as lesson9;
+import 'package:intermediate/lesson14.dart' as lesson14;
+import 'package:intermediate/lesson19.dart' as lesson19;
+import 'package:intermediate/lesson23.dart' as lesson23;
+import 'package:intermediate/lesson28.dart' as lesson28;
 
 
 
@@ -143,7 +148,7 @@ main(List<String> arguments) {
               salir = Exit();
               break;
             case 5:
-              lesson5.directory();//************** Lesson 5: ASSIGNMENT
+              lesson5.directory();//Lesson 5: ASSIGNMENT
               salir = Exit();
               break;
           /**********************************************************
@@ -162,8 +167,7 @@ main(List<String> arguments) {
               salir = Exit();
               break;
             case 9:
-              print('Coming Soon :)');
-              // Lesson 9: ASSIGNMENT
+              lesson9.lesson9();// Lesson 9: ASSIGNMENT
               salir = Exit();
               break;
           /**********************************************************
@@ -186,8 +190,7 @@ main(List<String> arguments) {
               salir = Exit();
               break;
             case 14:
-              print('Coming Soon :)');
-              // Lesson 14: ASSIGNMENT
+              lesson14.lesson14();// Lesson 14: ASSIGNMENT
               salir = Exit();
               break;
           /**********************************************************
@@ -215,8 +218,7 @@ main(List<String> arguments) {
               salir = Exit();
               break;
             case 19:
-              print('Coming Soon :)');
-              // Lesson 19: ASSIGNMENT
+              lesson19.lesson19();// Lesson 19: ASSIGNMENT
               salir = Exit();
               break;
           /**********************************************************
@@ -235,8 +237,7 @@ main(List<String> arguments) {
               salir = Exit();
               break;
             case 23:
-              print('Coming Soon :)');
-              // Lesson 23: ASSIGNMENT
+              lesson23.lesson23();// Lesson 23: ASSIGNMENT
               salir = Exit();
               break;
           /**********************************************************
@@ -247,20 +248,19 @@ main(List<String> arguments) {
               salir = Exit();
               break;
             case 25:
-              //tempdir.tempdir(); // Lesson 25: System temp directory
+              tempdir.tempdir(); // Lesson 25: System temp directory
               salir = Exit();
               break;
             case 26:
-              //listdir.listdir(); // Lesson 26: Listing items in directories
+              listdir.listdir(); // Lesson 26: Listing items in directories
               salir = Exit();
               break;
             case 27:
-              //files.files(); // Lesson 27: Accessing files
+              files.files(); // Lesson 27: Accessing files
               salir = Exit();
               break;
             case 28:
-              print('Coming Soon :)');
-              // Lesson 28: ASSIGNMENT
+              lesson28.lesson28();// Lesson 28: ASSIGNMENT
               salir = Exit();
               break;
 
