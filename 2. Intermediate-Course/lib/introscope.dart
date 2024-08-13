@@ -8,7 +8,7 @@ void introscope(){
       //int i = 5; //valid but causes issues
       if(i > 4)
       {
-        print('i is < 8 and > 4');
+        print('$i is < 8 and > 4');
       }
     }
   }

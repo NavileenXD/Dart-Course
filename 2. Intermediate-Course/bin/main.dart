@@ -9,6 +9,10 @@ import 'package:intermediate/introscope.dart' as introscope;
 import 'package:intermediate/publicprivatescope.dart' as publicprivatescope;
 import 'package:intermediate/getterssetters.dart' as getterssetters;
 import 'package:intermediate/staticmembers.dart' as staticmembers;
+import 'package:intermediate/inheritance.dart' as inheritance;
+import 'package:intermediate/mixins.dart' as mixins;
+
+
 
 //-------- Librerias de seccion IMPORTS
 // Lesson 3: Imports
@@ -181,12 +185,13 @@ main(List<String> arguments) {
               POLYMORPHISM
            **********************************************************/
             case 15:
-              print('Coming Soon :)');
-              // Lesson 15: Inheritance
+              inheritance.inheritance(); // Lesson 15: Inheritance
               salir = Exit();
               break;
             case 16:
-              print('Coming Soon :)');
+              print('Because we can not do multiple inheritance, '
+                  'we can "Mix" classes');
+              mixins.mixins();
               // Lesson 16: Mixins
               salir = Exit();
               break;
