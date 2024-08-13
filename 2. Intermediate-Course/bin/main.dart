@@ -13,6 +13,14 @@ import 'package:intermediate/inheritance.dart' as inheritance;
 import 'package:intermediate/mixins.dart' as mixins;
 import 'package:intermediate/interfaces.dart' as interfaces;
 import 'package:intermediate/abstraction.dart' as abstraction;
+import 'package:intermediate/introgenerics.dart' as introgenerics;
+import 'package:intermediate/exgenerics.dart' as exgenerics;
+import 'package:intermediate/generics.dart' as generics;
+import 'package:intermediate/syncAsync.dart' as syncAsync;
+//import 'package:intermediate/tempdir.dart' as tempdir;
+//import 'package:intermediate/listdir.dart' as listdir;
+//import 'package:intermediate/files.dart' as files;
+
 
 
 //-------- Librerias de seccion IMPORTS
@@ -215,18 +223,15 @@ main(List<String> arguments) {
               GENERICS
            **********************************************************/
             case 20:
-              print('Coming Soon :)');
-              // Lesson 20: Introduction to generics
+              introgenerics.introgenerics();// Lesson 20: Introduction to generics
               salir = Exit();
               break;
             case 21:
-              print('Coming Soon :)');
-              // Lesson 21 Example of generics
+              exgenerics.exgenerics(); // Lesson 21 Example of generics
               salir = Exit();
               break;
             case 22:
-              print('Coming Soon :)');
-              // Lesson 22: Generic class
+              generics.generics();// Lesson 22: Generic class
               salir = Exit();
               break;
             case 23:
@@ -238,23 +243,19 @@ main(List<String> arguments) {
               FILE SYSTEM
            **********************************************************/
             case 24:
-              print('Coming Soon :)');
-              // Lesson 24: Sync vs Async
+              syncAsync.syncAsync();// Lesson 24: Sync vs Async
               salir = Exit();
               break;
             case 25:
-              print('Coming Soon :)');
-              // Lesson 25: System temp directory
+              //tempdir.tempdir(); // Lesson 25: System temp directory
               salir = Exit();
               break;
             case 26:
-              print('Coming Soon :)');
-              // Lesson 26: Listing items in directories
+              //listdir.listdir(); // Lesson 26: Listing items in directories
               salir = Exit();
               break;
             case 27:
-              print('Coming Soon :)');
-              // Lesson 27: Accessing files
+              //files.files(); // Lesson 27: Accessing files
               salir = Exit();
               break;
             case 28:
