@@ -1,5 +1,6 @@
 import 'dart:io';
-import 'package:advanced/imports.dart' as imports;
+import 'package:advanced/osvariables.dart' as osvariables;
+import 'package:advanced/runningprocesses.dart' as runningprocesses;
 
 
 /*
@@ -26,7 +27,7 @@ main(List<String> arguments) {
         '***** OS VARIABLES *****\n\n'
         'Lesson 3: OS Variables\n'
         'Lesson 4: Running processes\n'
-        'Lesson 5: Comunicating with processes\n'
+        'Lesson 5: Communicating with processes\n'
         'Lesson 6: ASSIGNMENT\n\n'
 
         '***** ASYNC PROGRAMMING *****\n\n'
@@ -79,12 +80,11 @@ main(List<String> arguments) {
               OS VARIABLES
            **********************************************************/
             case 3:
-              imports.imports(); // Lesson 3: OS Variables
+              osvariables.osvariables(); // Lesson 3: OS Variables
               salir = Exit();
               break;
             case 4:
-              print('Coming Soon :)');
-              //Lesson 4: Running processes
+              runningprocesses.runningprocesses(); //Lesson 4: Running processes
               salir = Exit();
               break;
             case 5:
