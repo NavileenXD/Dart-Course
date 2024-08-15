@@ -56,7 +56,7 @@ main(List<String> arguments) {
         '***** OS VARIABLES *****\n\n'
         'Lesson 3: OS Variables\n'
         'Lesson 4: Running processes ERROOOOOOOOOOOOOOOOOR\n'
-        'Lesson 5: Communicating with processes\n'
+        'Lesson 5: Communicating with processes ERROOOOOOOOR\n'
         'Lesson 6: ASSIGNMENT\n\n'
 
         '***** ASYNC PROGRAMMING *****\n\n'
