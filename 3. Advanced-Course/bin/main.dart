@@ -1,6 +1,34 @@
 import 'dart:io';
 import 'package:advanced/osvariables.dart' as osvariables;
 import 'package:advanced/runningprocesses.dart' as runningprocesses;
+import 'package:advanced/processes.dart' as processes;
+import 'package:advanced/lesson6.dart' as lesson6;
+import 'package:advanced/timerCallbacks.dart' as timercallbacks;
+import 'package:advanced/futures.dart' as futures;
+import 'package:advanced/await.dart' as await;
+import 'package:advanced/lesson10.dart' as lesson10;
+import 'package:advanced/gzip.dart' as gzip;
+import 'package:advanced/gvsz.dart' as gvsz;
+import 'package:advanced/zip.dart' as zip;
+import 'package:advanced/lesson14.dart' as lesson14;
+import 'package:advanced/hashes.dart' as hashes;
+import 'package:advanced/derivingk.dart' as derivingk;
+import 'package:advanced/rnumbers.dart' as rnumbers;
+import 'package:advanced/ciphers.dart' as ciphers;
+import 'package:advanced/blockciphers.dart' as blockciphers;
+import 'package:advanced/lesson20.dart' as lesson20;
+import 'package:advanced/tcpserver.dart' as tcpserver;
+import 'package:advanced/tcpclient.dart' as tcpclient;
+import 'package:advanced/httpget.dart' as httpget;
+import 'package:advanced/httppost.dart' as httppost;
+import 'package:advanced/udp.dart' as udp;
+import 'package:advanced/lesson26.dart' as lesson26;
+import 'package:advanced/dbdesign.dart' as dbdesign;
+import 'package:advanced/srows.dart' as srows;
+import 'package:advanced/queries.dart' as queries;
+import 'package:advanced/nindexes.dart' as nindexes;
+import 'package:advanced/transactions.dart' as transactions;
+import 'package:advanced/lesson32.dart' as lesson32;
 
 
 /*
@@ -13,6 +41,7 @@ import 'package:advanced/runningprocesses.dart' as runningprocesses;
   var salir = false;
   var salir2 = stdin.readLineSync();
   if (salir2 == 'y') {
+    print('Bye :)');
     salir = true;
   }
   return salir;
@@ -26,7 +55,7 @@ main(List<String> arguments) {
     print('Welcome to Dart Intermediate Course\r\n'
         '***** OS VARIABLES *****\n\n'
         'Lesson 3: OS Variables\n'
-        'Lesson 4: Running processes\n'
+        'Lesson 4: Running processes ERROOOOOOOOOOOOOOOOOR\n'
         'Lesson 5: Communicating with processes\n'
         'Lesson 6: ASSIGNMENT\n\n'
 
@@ -88,59 +117,49 @@ main(List<String> arguments) {
               salir = Exit();
               break;
             case 5:
-              print('Coming Soon :)');
-              //Lesson 5: Comunicating with processes
+              processes.processes();//Lesson 5: Comunicating with processes
               salir = Exit();
               break;
             case 6:
-              print('Coming Soon :)');
-              //Lesson 6: ASSIGNMENT
+              lesson6.lesson6();//Lesson 6: ASSIGNMENT
               salir = Exit();
               break;
           /**********************************************************
               ASYNC PROGRAMMING
            **********************************************************/
             case 7:
-              print('Coming Soon :)');
-              //Lesson 7: Timers and callbacks
+              timercallbacks.timerCallbacks();//Lesson 7: Timers and callbacks
               salir = Exit();
               break;
             case 8:
-              print('Coming Soon :)');
-              //Lesson 8: Futures
+              futures.futures();//Lesson 8: Futures
               salir = Exit();
               break;
             case 9:
-              print('Coming Soon :)');
-              //Lesson 9: Awaits
+              await.await();//Lesson 9: Awaits
               salir = Exit();
               break;
             case 10:
-              print('Coming Soon :)');
-              //Lesson 10: ASSIGNMENT
+              lesson10.lesson10();//Lesson 10: ASSIGNMENT
               salir = Exit();
               break;
           /**********************************************************
               COMPRESSION
            **********************************************************/
             case 11:
-              print('Coming Soon :)');
-              //Lesson 11: GZIP Compression
+              gzip.gzip();//Lesson 11: GZIP Compression
               salir = Exit();
               break;
             case 12:
-              print('Coming Soon :)');
-              //Lesson 12: GZIP vs ZLIB
+              gvsz.gvsz();//Lesson 12: GZIP vs ZLIB
               salir = Exit();
               break;
             case 13:
-              print('Coming Soon :)');
-              //Lesson 13: Zip files
+              zip.zip();//Lesson 13: Zip files
               salir = Exit();
               break;
             case 14:
-              print('Coming Soon :)');
-              //Lesson 14: ASSIGNMENT
+              lesson14.lesson14();//Lesson 14: ASSIGNMENT
               salir = Exit();
               break;
 
@@ -148,99 +167,81 @@ main(List<String> arguments) {
               ENCRYPTION
            **********************************************************/
             case 15:
-              print('Coming Soon :)');
-              //Lesson 15: Hashes
+              hashes.hashes();//Lesson 15: Hashes
               salir = Exit();
               break;
             case 16:
-              print('Coming Soon :)');
-              //Lesson 16: Deriving Keys
+              derivingk.derivingk();//Lesson 16: Deriving Keys
               salir = Exit();
               break;
             case 17:
-              print('Coming Soon :)');
-              //Lesson 17: Secure random numbers
+              rnumbers.rnumbers();//Lesson 17: Secure random numbers
               salir = Exit();
               break;
             case 18:
-              print('Coming Soon :)');
-              //Lesson 18: Stream ciphers
+              ciphers.ciphers();//Lesson 18: Stream ciphers
               salir = Exit();
               break;
             case 19:
-              print('Coming Soon :)');
-              //Lesson 19: Block ciphers
+              blockciphers.blockciphers();//Lesson 19: Block ciphers
               salir = Exit();
               break;
             case 20:
-              print('Coming Soon :)');
-              //Lesson 20: ASSIGNMENT
+              lesson20.lesson20();//Lesson 20: ASSIGNMENT
               salir = Exit();
               break;
           /**********************************************************
               SOCKET PROGRAMMING
            **********************************************************/
             case 21:
-              print('Coming Soon :)');
-              //Lesson 21: TCP Server
+              tcpserver.tcpserver();//Lesson 21: TCP Server
               salir = Exit();
               break;
             case 22:
-              print('Coming Soon :)');
-              //Lesson 22: TCP Client
+              tcpclient.tcpclient();//Lesson 22: TCP Client
               salir = Exit();
               break;
             case 23:
-              print('Coming Soon :)');
-              //Lesson 23: HTTP Get
+              httpget.httpget();//Lesson 23: HTTP Get
               salir = Exit();
               break;
             case 24:
-              print('Coming Soon :)');
-              //Lesson 24: HTTP Post
+              httppost.httppost();//Lesson 24: HTTP Post
               salir = Exit();
               break;
             case 25:
-              print('Coming Soon :)');
-              //Lesson 25: UDP Sockets
+              udp.udp();//Lesson 25: UDP Sockets
               salir = Exit();
               break;
             case 26:
-              print('Coming Soon :)');
-              //Lesson 26: ASSIGNMENT
+              lesson26.lesson26();//Lesson 26: ASSIGNMENT
               salir = Exit();
               break;
           /**********************************************************
               DATABASE PROGRAMMING
            **********************************************************/
             case 27:
-              print('Coming Soon :)');
-              //Lesson 27: Database design
+              dbdesign.dbdesign();//Lesson 27: Database design
               salir = Exit();
               break;
             case 28:
-              print('Coming Soon :)');
-              //Lesson 28: Selecting rows
+              srows.srows();//Lesson 28: Selecting rows
               salir = Exit();
               break;
             case 29:
-              print('Coming Soon :)');
-              // Lesson 29: Using queries
+              queries.queries();// Lesson 29: Using queries
               salir = Exit();
               break;
             case 30:
-              print('Coming Soon :)');
-              //Lesson 30: Names and indexes
+              nindexes.nindexes();//Lesson 30: Names and indexes
               salir = Exit();
               break;
             case 31:
-              print('Coming Soon :)');
-              //Lesson 31: Transactions
+              transactions.transactions();//Lesson 31: Transactions
               salir = Exit();
               break;
             case 32:
-              print('Coming Soon :)');
-              //Lesson 32: ASSIGNMENT
+              lesson32.lesson32();//Lesson 32: ASSIGNMENT
               salir = Exit();
               break;
 

@@ -74,6 +74,7 @@ Exit() {
   var salir = false;
   var salir2 = stdin.readLineSync();
   if (salir2 == 'y') {
+    print('Bye :)');
     salir = true;
   }
   return salir;
