@@ -147,7 +147,7 @@ main(List<String> arguments) {
               COMPRESSION
            **********************************************************/
             case 11:
-              gzip.gzip();//Lesson 11: GZIP Compression
+              gzip.gziplesson();//Lesson 11: GZIP Compression
               salir = Exit();
               break;
             case 12:
@@ -155,7 +155,7 @@ main(List<String> arguments) {
               salir = Exit();
               break;
             case 13:
-              zip.zip();//Lesson 13: Zip files
+              zip.zipl();//Lesson 13: Zip files
               salir = Exit();
               break;
             case 14:
