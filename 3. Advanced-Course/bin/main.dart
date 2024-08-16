@@ -159,12 +159,13 @@ main(List<String> arguments) {
               salir = Exit();
               break;
             case 14:
+              //Data compression is the process of encoding, restructuring or otherwise modifying data in order to reduce its size.
               lesson14.lesson14();//Lesson 14: ASSIGNMENT
               salir = Exit();
               break;
 
           /**********************************************************
-              ENCRYPTION
+              ENCRYPTION AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
            **********************************************************/
             case 15:
               hashes.hashes();//Lesson 15: Hashes
